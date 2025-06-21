@@ -61,7 +61,3 @@ def predict_product_weight():
 
     return predicted_output[0]
 
-
-result = predict_product_weight()
-print("Predicted Product Weight:", result)
-
