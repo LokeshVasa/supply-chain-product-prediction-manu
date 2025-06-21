@@ -1,10 +1,9 @@
-import numpy as np
 import pickle
 import pandas as pd
 
 def predict_product_weight():
     # Load trained model
-    with open("models/final_model.pkl", "rb") as file:
+    with open(r"D:\workspace\arvind\supply-chain-product-prediction-manu\models\final_model.pkl", "rb") as file:
         model = pickle.load(file)
 
     # Define feature names (same order as training)
