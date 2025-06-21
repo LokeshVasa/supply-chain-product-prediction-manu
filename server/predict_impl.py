@@ -60,5 +60,3 @@ def predict_product_weight():
 
     return predicted_output[0]
 
-
-print(predict_product_weight())

@@ -19,5 +19,4 @@ async def get_product_weight() -> str:
         return f"Error predicting weight: {str(e)}"
 
 if __name__ == "__main__":
-    # Initialize and run the server
-    mcp.run(transport='stdio')
+    mcp.run(transport="stdio")
